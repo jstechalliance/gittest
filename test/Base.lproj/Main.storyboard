@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swi_five_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="bxQ-ub-PlI">
+                                <rect key="frame" x="175" y="20" width="251" height="251"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="251" id="3mg-45-6OP"/>
+                                    <constraint firstAttribute="height" constant="251" id="kig-u5-ynp"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="22I-Ni-cjd">
+                                <rect key="frame" x="36" y="271" width="528" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="22I-Ni-cjd" secondAttribute="height" multiplier="7:1" id="uld-Be-Z7p"/>
+                                </constraints>
+                                <state key="normal" image="facebook.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jZz-rV-xY7">
+                                <rect key="frame" x="95" y="376" width="528" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jZz-rV-xY7" secondAttribute="height" multiplier="7:1" id="wjt-3H-MRJ"/>
+                                </constraints>
+                                <state key="normal" image="facebook.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9t6-jz-vA3">
+                                <rect key="frame" x="80" y="473" width="528" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="9t6-jz-vA3" secondAttribute="height" multiplier="7:1" id="xay-Mb-eMh"/>
+                                </constraints>
+                                <state key="normal" image="facebook.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="bxQ-ub-PlI" secondAttribute="centerX" id="7hb-tH-BqZ"/>
+                            <constraint firstItem="9t6-jz-vA3" firstAttribute="width" secondItem="9t6-jz-vA3" secondAttribute="height" multiplier="7:1" id="Fh3-jK-B3T"/>
+                            <constraint firstItem="22I-Ni-cjd" firstAttribute="top" secondItem="bxQ-ub-PlI" secondAttribute="bottom" id="Nrx-Vr-NUR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="22I-Ni-cjd" secondAttribute="trailing" constant="20" id="dYi-2B-1wo"/>
+                            <constraint firstItem="jZz-rV-xY7" firstAttribute="width" secondItem="jZz-rV-xY7" secondAttribute="height" multiplier="7:1" id="fQz-Ut-FKH"/>
+                            <constraint firstItem="bxQ-ub-PlI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ute-8n-iwa"/>
+                            <constraint firstItem="22I-Ni-cjd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="wZ9-Ji-bS9"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="359" y="284"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="facebook.png" width="560" height="80"/>
+        <image name="swi_five_logo.png" width="849" height="849"/>
+    </resources>
+</document>
